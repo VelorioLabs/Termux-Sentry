@@ -1,0 +1,16 @@
+{
+  "name": "termux-sentry",
+  "version": "1.0.0",
+  "description": "Android Real-Time Hardware Telemetry & Process Radar for Termux",
+  "main": "web/index.html",
+  "bin": {
+    "termux-sentry": "termux/termux-install.sh"
+  },
+  "scripts": {
+    "start": "npx serve web -p 3094",
+    "test": "python -m unittest discover tests"
+  },
+  "keywords": ["termux", "android", "telemetry", "thermal-monitor", "battery-profiler", "process-radar"],
+  "author": "Velorio Labs",
+  "license": "MIT"
+}

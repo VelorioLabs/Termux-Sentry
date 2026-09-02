@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "termux-sentry"
+version = "1.0.0"
+description = "Android Real-Time Hardware Telemetry & Process Radar for Termux"
+readme = "README.md"
+authors = [{ name = "Velorio Labs", email = "contact@veloriolabs.io" }]
+license = { text = "MIT" }
+requires-python = ">=3.9"
+dependencies = []
+
+[project.scripts]
+termux-sentry = "termux_sentry.cli:main"
+sentry = "termux_sentry.cli:main"
